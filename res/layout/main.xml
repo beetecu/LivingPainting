@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+     <ImageView
+         android:id="@+id/imageViewOld"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:adjustViewBounds="false"
+         android:scaleType="fitXY"
+         android:src="@drawable/livingw" />
+
+     <ImageView
+         android:id="@+id/imageViewCurrent"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:adjustViewBounds="false"
+         android:scaleType="fitXY"         
+         android:src="@drawable/livingw"  
+         />
+
+</FrameLayout>
